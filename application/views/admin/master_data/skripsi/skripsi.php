@@ -78,7 +78,7 @@
                 <td><?php echo $no; ?></td>
                 <?php if ($this->session->userdata('group_id') == 1) { ?>
                   <td>
-                    <a href="<?php echo base_url() . 'upload/skripsi_full/' . $skripsi[0]->skripsi_file_full ?>" target="_blank" class="btn btn-success btn-icon-split btn-sm">
+                    <a href="<?php echo base_url() . 'upload/skripsi_full/' . $key->skripsi_file_full ?>" target="_blank" class="btn btn-success btn-icon-split btn-sm">
                       <span class="text">
                         <i class="fa fa-download"></i>
                       </span>

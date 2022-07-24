@@ -14,12 +14,12 @@ class m_widget extends CI_Model
   }
   public function total_skripsi()
   {
-    $query  = $this->db->query("SELECT * FROM kategori_skripsi_tbl");
+    $query  = $this->db->query("SELECT * FROM skripsi_tbl");
     return $query->num_rows();
   }
   public function total_kategori()
   {
-    $query  = $this->db->query("SELECT * FROM skripsi_tbl");
+    $query  = $this->db->query("SELECT * FROM kategori_skripsi_tbl");
     return $query->num_rows();
   }
 
